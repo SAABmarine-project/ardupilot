@@ -3,9 +3,10 @@ Med hjälp av detta repo kan vi göra ändringar i ArduSub koden och flasha det 
 ## Setup
 1. Klona det här repot
 2. ```cd ardupilot```
+3. ```git checkout saabmarine``
 Steg 3 och 4 är till för att setta upp "the build environment".
-3. ```Tools/environment_install/install-prereqs-ubuntu.sh -y```
-4. ```. ~/.profile```
+4. ```Tools/environment_install/install-prereqs-ubuntu.sh -y```
+5. ```. ~/.profile```
 ### Setting up waf and compiling
 Waf is a global build system for ArduPilot repository. Här är för att göra det anpassat till oss
 1. ```./waf configure --board navigator``` behöver bara köras en gång
