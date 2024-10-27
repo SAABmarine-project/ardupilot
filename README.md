@@ -1,7 +1,16 @@
 # ArduPilot Project - SAABmarine Edition
-----------------
 Med hjälp av detta repo kan vi göra ändringar i ArduSub koden och flasha det till Broven.
-----------------
+## Setup
+1. Klona det här repot
+2. ```cd ardupilot```
+Steg 3 och 4 är till för att setta upp "the build environment".
+3. ```Tools/environment_install/install-prereqs-ubuntu.sh -y```
+4. ```. ~/.profile```
+### Setting up waf and compiling
+Waf is a global build system for ArduPilot repository. Här är för att göra det anpassat till oss
+1. ```./waf configure --board navigator``` behöver bara köras en gång
+2. ```./waf sub``` detta kompilerar och skapar en firmware fil i ``ardupilot/build/navigator/bin/ardusub.apj`
+3. Denna skapade firmware fil laddar man nu upp på broven via BlueOS så körs den firmwaren på broven
 
 <a href="https://ardupilot.org/discord"><img src="https://img.shields.io/discord/674039678562861068.svg" alt="Discord">
 
