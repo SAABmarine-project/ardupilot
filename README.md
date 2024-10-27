@@ -6,6 +6,7 @@ Med hjälp av detta repo kan vi göra ändringar i ArduSub koden och flasha det 
 3. ```git checkout saabmarine```
 
 Steg 3 och 4 är till för att setta upp "the build environment".
+
 5. ```Tools/environment_install/install-prereqs-ubuntu.sh -y```
 6. ```. ~/.profile```
 ### Setting up waf and compiling
