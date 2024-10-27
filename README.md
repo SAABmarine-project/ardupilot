@@ -12,6 +12,10 @@ Waf is a global build system for ArduPilot repository. Här är för att göra d
 2. ```./waf sub``` detta kompilerar och skapar en firmware fil i ```ardupilot/build/navigator/bin/ardusub.apj``` 
 3. Denna skapade firmware fil laddar man nu upp på broven via BlueOS så körs den firmwaren på broven
 
+## Källor
+https://www.ardusub.com/developers/developers.html 
+https://ardupilot.org/dev/docs/building-setup-linux.html 
+
 ---------------
 
 <a href="https://ardupilot.org/discord"><img src="https://img.shields.io/discord/674039678562861068.svg" alt="Discord">
